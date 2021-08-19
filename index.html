@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- fontasome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+   <div class="wrap">
+    <div class="login">
+        <h2>Member login</h2>
+        <br>
+        <p>Emaill address</p>
+        <br>
+        <input type="text" name=""  placeholder="Enter your email">
+        <br>
+        <p>Password</p>
+        <div class="box">
+            <input type="password" id="pass" placeholder="Enter your password">
+            <i onclick="myfunction()" class="far fa-eye" aria-hidden="true"></i>
+        </div>      
+        <div class="check">
+            
+            <input type="checkbox"> Remember
+        </div>
+        <br>
+        <button type="submit">login</button>
+     <br>
+        <br>
+        <a class="forget" href="">Forget password</a>
+    </div>
+   </div>
+   <script>
+function myfunction(){
+    var x = document.getElementById('pass');
+  if (image.src.match("bulbon")) {
+    image.src = "pic_bulboff.gif";
+  } else {
+    image.src = "pic_bulbon.gif";
+  }
+   var x = false;
+   function myfunction() {
+       if(x){
+           document.getElementById("pass").setAttribute("type","text");
+           x= false;
+       }
+       else{
+           document.getElementById("pass").setAttribute("type", "password");
+           x=true;
+       }
+   }
+}
+</script>
+</body>
+</html>

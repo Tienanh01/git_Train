@@ -1,0 +1,72 @@
+.wrap{
+    background-color: #1c8ef8;
+    font-family: sans-serif;
+}
+.wrap .login{
+    background-color: #fff;
+    width: 300px;
+    height: 350px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+.login h2{
+    display: inline-block;
+    color: grey;
+
+}
+.login input{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey ;
+    padding-left: 20px;
+    margin: 5px 0;   
+  
+}
+.check{
+    float: left;
+    padding-left: 50px;
+    margin: 5px 0;
+}
+.check input{
+    width: 10px;
+    height: 10px;
+
+}
+.login button{
+    width: 207px;
+    height:40px;
+    background-color: #167bff;
+    color: white;   
+    border-radius: 5px;
+    border: none;
+}
+p{
+   
+   float: left;
+   padding-left: 50px;
+   margin: 0px;
+}
+button{
+    border: none;
+}
+.box{
+    width: 100%;
+    height: auto;
+}
+.box {
+    position: relative;
+}
+.box i{
+    position: absolute;
+    bottom: 18px;
+    right: 65px;
+}
+
+.wrap .login .forget:hover{
+    text-decoration: none;
+    color: hotpink;
+    box-shadow: -5px 3px 5px 1px #333;
+}
